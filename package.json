@@ -1,0 +1,54 @@
+{
+  "name": "goaaal-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-loading-skeleton": "^2.1.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-spring": "^8.0.27",
+    "react-toastify": "^6.0.8",
+    "socket.io-client": "^3.0.5"
+  },
+  "scripts": {
+    "start": "yarn run watch:css && react-scripts start",
+    "build": "yarn run build:css && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build:css": "postcss src/assets/tailwind.css -o src/assets/main.css",
+    "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css",
+    "s3-deploy": "aws s3 sync ./build s3://kiniscores",
+    "deploy": "npm run build && npm run s3-deploy"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.5",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
+  }
+}
