@@ -1,2 +1,2 @@
-# Futmob.io-News-App
-A football news and updates mobile/desktop web app built using ReactJS, Node, and Tailwind.css. Get real-time score updates for all live football matches. as well as full season calendar for fixtures and results. 
+# About
+A football news and updates mobile/desktop web app built using ReactJS, Node, and Tailwind.css. Get real-time score updates for all live football matches. as well as full season calendar for fixtures and results. What's more is you can even get live match statistics along with lineups and real time events updates as well as previous head-to-head records. You can even check the leading goalscorers in all major football leagues and tournaments worlwide. Get access to all latest news and updates from the world of football. 
