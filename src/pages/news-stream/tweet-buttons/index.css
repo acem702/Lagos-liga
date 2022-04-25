@@ -1,0 +1,12 @@
+.tweet-button {
+  position: fixed;
+  left: 5%;
+  bottom: 5%;
+}
+
+.tweet-button-mobile {
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+}
+

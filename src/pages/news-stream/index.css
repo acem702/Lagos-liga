@@ -1,0 +1,25 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+  .mini {
+    position: fixed;
+    right: 1rem;
+    top: 6.5rem;
+    width: 40%;
+  }
+
+  .stream {
+    width: 58%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .mini {
+    position: fixed;
+    right: 0.5rem;
+    top: 8rem;
+    width: 40%;
+  }
+
+  .stream {
+    width: 58%;
+  }
+}

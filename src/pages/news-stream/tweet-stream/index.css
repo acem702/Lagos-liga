@@ -1,0 +1,12 @@
+.tweet {
+  min-height: 180px;
+}
+.tweet-image {
+  max-height: 37.5rem;
+  border-radius: 20px;
+}
+
+.tweet p {
+  font-weight: 400;
+  letter-spacing: 0.01rem;
+}
