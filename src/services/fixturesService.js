@@ -1,5 +1,5 @@
 import Kiniscores from "./httpService";
-import { kiniscoresApi } from "../config.json";
+import { kiniscoresApi } from "../config";
 
 export const getTodaysFixtures = (day) => {
   return Kiniscores.get(`${kiniscoresApi}/fixtures?day=${day}`);

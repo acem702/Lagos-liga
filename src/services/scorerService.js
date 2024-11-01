@@ -1,4 +1,4 @@
-import { kiniscoresApi } from "../config.json";
+import { kiniscoresApi } from "../config";
 import Kiniscores from "./httpService";
 
 export function getLeagueScorers(id) {

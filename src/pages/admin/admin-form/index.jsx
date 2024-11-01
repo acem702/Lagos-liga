@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import femi from "../../../services/httpService";
-import {kiniscoresApi} from '../../../config.json';
+import {kiniscoresApi} from '../../../config';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 

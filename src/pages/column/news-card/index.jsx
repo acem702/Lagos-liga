@@ -1,7 +1,7 @@
 import React from "react";
 import moment from "moment";
 import { Link } from "react-router-dom";
-import { kiniscoresApi } from "../../../config.json";
+import { kiniscoresApi } from "../../../config";
 
 const NewsCard = ({ news, getNewsBody }) => {
   const imageUrl = `${kiniscoresApi}/news/newsImage/${news._id}`;

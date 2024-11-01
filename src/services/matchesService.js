@@ -1,5 +1,5 @@
 import Kiniscores from "./httpService";
-import { kiniscoresApi } from "../config.json";
+import { kiniscoresApi } from "../config";
 
 export function getLeagueResults(matchday, id) {
   return Kiniscores.get(`${kiniscoresApi}/results/${id}/${matchday}`);

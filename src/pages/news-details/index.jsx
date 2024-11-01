@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { getLatestNewsBody } from "../../services/latestServices";
 import { formatFixturesDate } from "../../utils/formatTime";
-import { kiniscoresApi } from "../../config.json";
+import { kiniscoresApi } from "../../config";
 import SkeletonNewsBody from "../../components/common/skeletons/news/SkeletonNewsbody";
 
 const NewsBody = () => {
